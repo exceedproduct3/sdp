@@ -5,12 +5,12 @@ plugins {
 }
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 30
 
     defaultConfig {
         //applicationId "com.android.stemexeframework"
-        minSdkVersion 21
-        targetSdkVersion 31
+        minSdkVersion 22
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
     }
@@ -35,6 +35,6 @@ android {
 
 dependencies {
 
-    implementation 'androidx.core:core-ktx:1.7.0'
-    implementation 'androidx.appcompat:appcompat:1.4.0'
+    implementation 'androidx.core:core-ktx:1.6.0'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
 }
