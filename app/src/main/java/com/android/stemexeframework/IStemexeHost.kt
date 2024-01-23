@@ -8,5 +8,5 @@ interface IStemexeHost {
     fun getAppAppearanceInformation(callback: (result: StemexeAppSettings?) -> Unit)
     fun getDataProviders(providerType: String, callback: (result: ArrayList<StemexeDataProvider>?) -> Unit)
     fun openUrl(url: String, context: HashMap<String, String>, callback: (result: Boolean?) -> Unit)
-    fun getTechnadoptProducts(context: Context, startPageNumber: Int, search:String, language:String, callback: (result: Any?) -> Unit)
+    fun getTechnadoptProducts(pageNumber: Int, search:String, language:String, callback: (result: Any?) -> Unit)
 }
